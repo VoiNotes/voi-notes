@@ -8,7 +8,7 @@ class Login extends Component {
                 <div className={"jumbotron"}>
                     <div className="Login">
                         <header className="Login">
-                            <img src="./assets/images/lock.svg"></img>
+                            <img src="./assets/images/lock.svg" alt="lock"></img>
                             <center>
                                 <p> Login </p>
                                 <form action="#" method="POST">

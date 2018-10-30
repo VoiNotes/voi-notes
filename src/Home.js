@@ -13,11 +13,8 @@ class Home extends Component {
                             <div id="title">VoiNotes</div>
                         </div>
 
-
                     </header>
-                    <Router>
-                        <center><Link className={"login"} to="/login/">Login</Link></center>
-                    </Router>
+                    <center><Link className={"login"} to="/login/">Login</Link></center>
                 </div>
             </div>
         );

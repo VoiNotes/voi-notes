@@ -3,7 +3,8 @@ import React, { Component } from 'react';
 import './App.css';
 import Home from './Home.js'
 import Login from './Login.js'
-import { BrowserRouter as Router, Route, Link, NavLink } from 'react-router-dom';
+// import { Router } from 'react-router';
+import { BrowserRouter as Router, Route, Link, NavLink, Switch } from 'react-router-dom';
 
 class App extends Component {
   render() {

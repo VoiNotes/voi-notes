@@ -10,3 +10,7 @@ img {
     margin-left: auto;
     margin-right: auto;
 }
+
+#lock {
+    background-image: url('%PUBLIC_URL%/assets/images/lock.svg');
+}

@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './Login.css';
+import lock from './lock.svg';
 
 class Login extends Component {
     render() {
@@ -8,7 +9,7 @@ class Login extends Component {
                 <div className={"jumbotron"}>
                     <div className="Login">
                         <header className="Login">
-                            <img src="./assets/images/lock.svg" alt="lock"></img>
+                            <img src={lock} id="lock" alt="lock"></img>
                             <center>
                                 <p> Login </p>
                                 <form action="#" method="POST">

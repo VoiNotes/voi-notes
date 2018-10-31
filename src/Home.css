@@ -1,14 +1,21 @@
+.App .container .App-header, .container, .App {
+    height: 100%;
+    width: 100%;
+}
+
 #jumbo {
-    margin: 20px 200px;
-    background-color: rgba(0, 0, 0, 0.4);
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
     border: 3px solid #f1f1f1;
+    
+    /* padding: 20px 520px; */
 }
 
 .login, .login:hover {
     text-decoration: none;
     /* background: none; */
     border: 3px solid #f1f1f1;
-    background-color: rgba(30, 65, 30, 0.719);
+    background-color: rgba(30, 65, 30, 0.9);
     color: rgb(255, 255, 255);
     font-family: 'Courier New', Courier, monospace;
     font-weight: bolder;

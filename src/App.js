@@ -3,7 +3,9 @@ import React, { Component } from 'react';
 import './App.css';
 import Home from './Home.js'
 import Login from './Login.js'
-import { BrowserRouter as Router, Route, Link, NavLink } from 'react-router-dom';
+import Meeting from './Meeting.js'
+// import { Router } from 'react-router';
+import { BrowserRouter as Router, Route, Link, NavLink, Switch } from 'react-router-dom';
 
 class App extends Component {
   render() {
@@ -12,6 +14,7 @@ class App extends Component {
         <div>
           <Route path="/" exact component={Home} />
           <Route path="/login/" component={Login} />
+          <Route path="/meeting/" component={Meeting} />
         </div>
       </Router>
     );

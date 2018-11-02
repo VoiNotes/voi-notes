@@ -4,6 +4,7 @@ import './App.css';
 import Home from './Home.js'
 import Login from './Login.js'
 import Meeting from './Meeting.js'
+import Meeting2 from './Meeting2.js'
 // import { Router } from 'react-router';
 import { BrowserRouter as Router, Route, Link, NavLink, Switch } from 'react-router-dom';
 
@@ -15,6 +16,7 @@ class App extends Component {
           <Route path="/" exact component={Home} />
           <Route path="/login/" component={Login} />
           <Route path="/meeting/" component={Meeting} />
+          <Route path="/meeting2/" component={Meeting2} />
         </div>
       </Router>
     );

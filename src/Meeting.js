@@ -35,16 +35,22 @@ class Meeting extends Component {
     }
     render() {
         return (
-            <div>
-                <ReactMic
-                    record={this.state.record}
-                    className="sound-wave"
-                    onStop={this.onStop}
-                    onData={this.onData}
-                    strokeColor="#000000"
-                    backgroundColor="#FF4081" />
-                <button className={"btn btn-success"} onTouchTap={this.startRecording} type="button">Start</button>
-                <button className={"btn btn-failed"} onTouchTap={this.stopRecording} type="button">Stop</button>
+            <div className={"meeting"}>
+                <div className={""}>
+                    <div className={"react-mic"}>
+                        <ReactMic
+                            record={this.state.record}
+                            className="sound-wave"
+                            onStop={this.onStop}
+                            onData={this.onData}
+                            strokeColor="#000000"
+                            backgroundColor="#FF4081" />
+                    </div>
+                    <div className={"react-mic-control"}>
+                        <button className={"btn btn-success"} onTouchTap={this.startRecording} onClick={this.startRecording} type="button">Start</button>
+                        <button className={"btn btn-danger"} onTouchTap={this.stopRecording} onClick={this.stopRecording} type="button">Stop</button>
+                    </div>
+                </div>
             </div>
         );
     }
